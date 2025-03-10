@@ -12,6 +12,34 @@ intents:
   - sleep_tips
   - journaling_prompt
   - mindfulness_exercise
+  - express_sadness
+  - express_stress
+  - affirm
+  - provide_details
+
+entities:
+  - username
+  - email
+  - password
+
+slots:
+  username:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: username
+
+  email:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: email
+
+  password:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: password
 
 responses:
   utter_greet:
@@ -47,8 +75,10 @@ responses:
 
   utter_mindfulness_exercise:
     - text: "Let's do a quick mindfulness exercise. Close your eyes and take three slow, deep breaths."
+
   utter_comfort:
     - text: "I'm sorry you're feeling this way. I'm here to listen. Do you want to talk about it?"
+
   utter_stress_advice:
     - text: "Have you tried deep breathing? Inhale for 4 seconds, hold for 4 seconds, and exhale for 4 seconds."
 
@@ -58,26 +88,6 @@ responses:
 actions:
   - action_register_user
   - action_login_user
-
-slots:
-  username:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: username
-
-  email:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: email
-
-  password:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: password
-
 
 session_config:
   session_expiration_time: 60
