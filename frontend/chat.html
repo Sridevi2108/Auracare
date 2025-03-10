@@ -5,17 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auracare Chatbot</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="chat-container">
-        <div class="chat-box" id="chat-box">
-            <div class="bot-message">Hello! How can I help you today?</div>
+        <div class="sidebar">
+            <button id="new-chat-btn">New Chat</button>
+            <div class="chat-history">
+                <div class="chat-history-title">Previous Chats</div>
+                <div id="previous-chats"></div>
+            </div>
         </div>
-        <div class="input-container">
-            <input type="text" id="user-input" placeholder="Type a message...">
-            <button>Send</button>
+        <div class="main-chat">
+            <div class="chat-header">
+                <img src="bot-icon.png" alt="Bot Icon" class="bot-icon">
+                <span class="chat-title">Auracare</span>
+                <span class="chat-status">Online</span>
+            </div>
+            <div class="chat-box" id="chat-box">
+                <div class="message bot-message">
+                    <div class="message-content">Hello! How can I help you today?</div>
+                    <div class="message-time">2:21 PM</div>
+                </div>
+            </div>
+            <div class="input-container">
+                <button id="emoji-btn">😀</button>
+                <input type="text" id="user-input" placeholder="Write your message...">
+                <button id="send-btn">Send</button>
+            </div>
+            <!-- Emoji Picker Container -->
+            <div id="emoji-picker" style="display: none;"></div>
         </div>
     </div>
+
+    <!-- Emoji Mart Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@emoji-mart/data"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emoji-mart/react"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emoji-mart/web"></script>
     <script src="script.js"></script>
 </body>
 </html>
