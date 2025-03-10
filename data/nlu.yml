@@ -63,6 +63,7 @@ nlu:
   examples: |
     - Guide me through a mindfulness exercise
     - How can I be more mindful?
+
 - intent: express_sadness
   examples: |
     - I'm feeling down
@@ -70,3 +71,22 @@ nlu:
     - I'm not feeling great
     - I feel lonely
     - I'm depressed
+
+- intent: express_stress
+  examples: |
+    - I'm so stressed
+    - I feel overwhelmed
+    - I'm under a lot of pressure
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Sure
+    - Absolutely
+    - That sounds good
+
+- intent: provide_details
+  examples: |
+    - My username is [john_doe](username)
+    - My email is [john@example.com](email)
+    - My password is [password123](password)
