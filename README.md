@@ -6,7 +6,7 @@ _A multilingual, AI-driven mental health chatbot platform with integrated journa
 
 ## 🎥 Demo
 
-[![Watch the demo](https://img.youtube.com/vi/izNxq7_LYQ4/0.jpg)](https://www.youtube.com/watch?v=izNxq7_LYQ4)  
+[![Watch the demo]](https://www.youtube.com/watch?v=izNxq7_LYQ4)  
 
 
 ---
