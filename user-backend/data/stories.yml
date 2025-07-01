@@ -1,0 +1,42 @@
+version: "3.1"
+
+stories:
+- story: Greet and encourage user
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: encouragement
+    - action: utter_encouragement
+
+- story: Anxiety and coping strategies
+  steps:
+    - intent: anxiety_relief
+    - action: utter_anxiety_relief
+    - intent: coping_strategies
+    - action: utter_coping_strategies
+
+- story: Crisis support and reassurance
+  steps:
+    - intent: crisis_support
+    - action: utter_crisis_support
+    - intent: encouragement
+    - action: utter_encouragement
+
+- story: Self-care and mindfulness
+  steps:
+    - intent: self_care_tips
+    - action: utter_self_care_tips
+    - intent: mindfulness_exercise
+    - action: utter_mindfulness_exercise
+
+- story: User is feeling sad
+  steps:
+  - intent: express_sadness
+  - action: utter_comfort
+
+- story: User feels stressed
+  steps:
+  - intent: express_stress
+  - action: utter_stress_advice
+  - intent: affirm
+  - action: utter_followup

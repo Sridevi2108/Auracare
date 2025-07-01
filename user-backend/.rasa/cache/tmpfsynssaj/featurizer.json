@@ -1,0 +1,77 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "affirm": 0,
+        "anxiety_relief": 1,
+        "back": 2,
+        "coping_strategies": 3,
+        "crisis_support": 4,
+        "emotional_support": 5,
+        "encouragement": 6,
+        "express_sadness": 7,
+        "express_stress": 8,
+        "goodbye": 9,
+        "greet": 10,
+        "journaling_prompt": 11,
+        "mindfulness_exercise": 12,
+        "negative_thoughts": 13,
+        "nlu_fallback": 14,
+        "out_of_scope": 15,
+        "provide_details": 16,
+        "restart": 17,
+        "self_care_tips": 18,
+        "session_start": 19,
+        "sleep_tips": 20
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_register_user": 13,
+        "action_login_user": 14,
+        "action_multilingual_llama": 15,
+        "utter_anxiety_relief": 16,
+        "utter_comfort": 17,
+        "utter_coping_strategies": 18,
+        "utter_crisis_support": 19,
+        "utter_encouragement": 20,
+        "utter_followup": 21,
+        "utter_goodbye": 22,
+        "utter_greet": 23,
+        "utter_journaling_prompt": 24,
+        "utter_mindfulness_exercise": 25,
+        "utter_negative_thoughts": 26,
+        "utter_self_care_tips": 27,
+        "utter_sleep_tips": 28,
+        "utter_stress_advice": 29
+      },
+      "entities": {
+        "email": 0,
+        "password": 1,
+        "username": 2
+      },
+      "slots": {
+        "username_0": 0,
+        "email_0": 1,
+        "password_0": 2
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

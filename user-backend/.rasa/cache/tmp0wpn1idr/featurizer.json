@@ -1,0 +1,65 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "anxiety_relief": 0,
+        "back": 1,
+        "coping_strategies": 2,
+        "crisis_support": 3,
+        "encouragement": 4,
+        "goodbye": 5,
+        "greet": 6,
+        "journaling_prompt": 7,
+        "mindfulness_exercise": 8,
+        "negative_thoughts": 9,
+        "nlu_fallback": 10,
+        "out_of_scope": 11,
+        "restart": 12,
+        "self_care_tips": 13,
+        "session_start": 14,
+        "sleep_tips": 15
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_register_user": 13,
+        "action_login_user": 14,
+        "utter_anxiety_relief": 15,
+        "utter_comfort": 16,
+        "utter_coping_strategies": 17,
+        "utter_crisis_support": 18,
+        "utter_encouragement": 19,
+        "utter_goodbye": 20,
+        "utter_greet": 21,
+        "utter_journaling_prompt": 22,
+        "utter_mindfulness_exercise": 23,
+        "utter_negative_thoughts": 24,
+        "utter_self_care_tips": 25,
+        "utter_sleep_tips": 26
+      },
+      "entities": {},
+      "slots": {
+        "username_0": 0,
+        "email_0": 1,
+        "password_0": 2
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

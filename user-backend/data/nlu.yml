@@ -1,0 +1,128 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - vanakkam
+    - good morning
+    - good evening
+
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - See you later
+    - Goodbye
+    - Take care
+
+- intent: encouragement
+  examples: |
+    - I feel like giving up
+    - I need motivation
+    - Things are really hard right now
+
+- intent: coping_strategies
+  examples: |
+    - How can I manage stress?
+    - I feel overwhelmed
+    - What can I do to calm myself down?
+
+- intent: self_care_tips
+  examples: |
+    - How can I practice self-care?
+    - Give me some self-care tips
+
+- intent: anxiety_relief
+  examples: |
+    - I'm feeling anxious
+    - How do I deal with anxiety?
+
+- intent: negative_thoughts
+  examples: |
+    - I'm having negative thoughts
+    - I feel like I'm not good enough
+
+- intent: crisis_support
+  examples: |
+    - I feel really hopeless
+    - I'm in a crisis
+    - I don't know what to do anymore
+
+- intent: sleep_tips
+  examples: |
+    - I can't sleep
+    - How can I sleep better?
+
+- intent: journaling_prompt
+  examples: |
+    - I want to start journaling
+    - Give me a journaling prompt
+
+- intent: mindfulness_exercise
+  examples: |
+    - Guide me through a mindfulness exercise
+    - How can I be more mindful?
+
+- intent: express_sadness
+  examples: |
+    - I'm feeling down
+    - I am sad
+    - I'm not feeling great
+    - I feel lonely
+    - I'm depressed
+
+- intent: express_stress
+  examples: |
+    - I'm so stressed
+    - I feel overwhelmed
+    - I'm under a lot of pressure
+
+- intent: affirm
+  examples: |
+    - yes
+    - okay
+    - that's right
+    - sure
+    - haan
+    - sari
+
+
+- intent: provide_details
+  examples: |
+    - My username is [john_doe](username)
+    - My email is [john@example.com](email)
+    - My password is [password123](password)
+
+- intent: emotional_support
+  examples: |
+    - I'm feeling down and hopeless
+    - நான் ரொம்ப சோர்வாக இருக்கிறேன்
+    - naan romba tired ah iruken mentally
+    - I feel so alone
+    - என் வாழ்க்கை ரொம்ப கஷ்டமா இருக்கு
+    - enaku romba kastam ah iruku
+    - I'm not okay today
+    - I don't feel like talking to anyone
+    - என்னால வேறே முடியல
+    - I want to cry but I can't explain why
+    - I'm mentally and emotionally exhausted
+    - naan thaniya feel panren
+    - I feel broken inside
+    - Nothing makes me happy anymore
+    - ennoda situation puriyala, I feel lost
+    - I feel like giving up everything
+
+- intent: trigger_game
+  examples: |
+    - /trigger_game
+
+- intent: trigger_quiz
+  examples: |
+    - /trigger_quiz
+
+- intent: trigger_music
+  examples: |
+    - /trigger_music

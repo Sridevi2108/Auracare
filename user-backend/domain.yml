@@ -1,0 +1,104 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - encouragement
+  - coping_strategies
+  - self_care_tips
+  - anxiety_relief
+  - negative_thoughts
+  - crisis_support
+  - sleep_tips
+  - journaling_prompt
+  - mindfulness_exercise
+  - express_sadness
+  - express_stress
+  - affirm
+  - provide_details
+  - emotional_support    
+
+entities:
+  - username
+  - email
+  - password
+
+slots:
+  username:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: username
+
+  email:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: email
+
+  password:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: password
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm Auracare, your mental health companion. How are you feeling today?"
+    - text: "Hi there! I'm here to support you. What's on your mind?"
+
+  utter_goodbye:
+    - text: "Goodbye! Remember, you are not alone. Take care!"
+
+  utter_encouragement:
+    - text: "You're doing the best you can, and that’s enough. Take things one step at a time."
+
+  utter_coping_strategies:
+    - text: "Have you tried deep breathing? Inhale for 4 seconds, hold for 4 seconds, and exhale for 4 seconds."
+
+  utter_self_care_tips:
+    - text: "Taking care of yourself is important. Have you taken a break today?"
+
+  utter_anxiety_relief:
+    - text: "It sounds like you're feeling anxious. Would you like to try a relaxation exercise?"
+
+  utter_negative_thoughts:
+    - text: "Negative thoughts can be overwhelming. Have you tried reframing them into something more positive?"
+
+  utter_crisis_support:
+    - text: "If you're in crisis, please consider reaching out to a mental health professional. You are not alone."
+
+  utter_sleep_tips:
+    - text: "Having trouble sleeping? Try limiting screen time before bed and doing a relaxation exercise."
+
+  utter_journaling_prompt:
+    - text: "A journaling prompt for you: If you could give your past self advice, what would it be?"
+
+  utter_mindfulness_exercise:
+    - text: "Let's do a quick mindfulness exercise. Close your eyes and take three slow, deep breaths."
+
+  utter_comfort:
+    - text: "I'm sorry you're feeling this way. I'm here to listen. Do you want to talk about it?"
+
+  utter_stress_advice:
+    - text: "Have you tried deep breathing? Inhale for 4 seconds, hold for 4 seconds, and exhale for 4 seconds."
+
+  utter_followup:
+    - text: "I'm glad you tried it! Would you like to talk more about what's making you feel stressed?"
+
+actions:
+  - action_register_user
+  - action_login_user
+  - action_multilingual_llama
+  - action_open_game
+  - action_open_quiz
+  - action_open_music
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+
+
+

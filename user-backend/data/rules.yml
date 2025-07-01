@@ -1,0 +1,43 @@
+version: "3.1"
+
+rules:
+- rule: Greet user when they say hi
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Respond to goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Offer crisis support
+  steps:
+    - intent: crisis_support
+    - action: utter_crisis_support
+
+- rule: Handle stress
+  steps:
+  - intent: express_stress
+  - action: utter_stress_advice
+
+
+- rule: Dynamic multilingual response
+  steps:
+    - intent: emotional_support
+    - action: action_multilingual_llama
+
+- rule: User selects game
+  steps:
+    - intent: trigger_game
+    - action: action_open_game
+
+- rule: User selects quiz
+  steps:
+    - intent: trigger_quiz
+    - action: action_open_quiz
+
+- rule: User selects music
+  steps:
+    - intent: trigger_music
+    - action: action_open_music

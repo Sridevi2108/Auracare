@@ -1,0 +1,20 @@
+recipe: default.v1
+language: "mul"
+
+pipeline:
+- name: "WhitespaceTokenizer"
+- name: "LanguageModelFeaturizer"
+  model_name: "roberta"
+- name: "DIETClassifier"
+- name: "EntitySynonymMapper"
+- name: "ResponseSelector"
+- name: "FallbackClassifier"
+
+policies:
+- name: MemoizationPolicy
+- name: RulePolicy
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+  constrain_similarities: true
+assistant_id: 20250401-171122-future-gator
