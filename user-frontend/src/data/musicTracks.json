@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "title": "Calm Waves",
+    "description": "Soft piano with gentle waves — perfect for relaxing focus.",
+    "duration": "3:18",
+    "url": "https://nalovpjssrwuealxyhup.supabase.co/storage/v1/object/sign/music/calm-waves-soft-piano-314968.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5XzNiMzI2OGE2LTVlZDctNGI0YS04ZjM0LWE4YmU3MTFhOTY2ZCJ9.eyJ1cmwiOiJtdXNpYy9jYWxtLXdhdmVzLXNvZnQtcGlhbm8tMzE0OTY4Lm1wMyIsImlhdCI6MTc0NTM0ODc4NywiZXhwIjoxODA4NDIwNzg3fQ.RhJjsCFEU4Wm-hGcc-EEMLS2bCOKgDeeg_sb1cyGY6g",
+    "category": "calm"
+  }
+]
