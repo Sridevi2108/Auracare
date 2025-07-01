@@ -143,15 +143,15 @@ Users get an overview of their activities and mental wellness stats.
 
 **Chat with English:**  
 Interact with the AI chatbot in English for mental health support.  
-![Chat English](/screenshots/chat-english.png)
+![Chat English](/screenshots/chat-english.jpeg)
 
 **Chat with Tanglish:**  
 Multilingual chatbot conversation in Tanglish.  
-![Chat Tanglish](/screenshots/chat-tanglish.png)
+![Chat Tanglish](/screenshots/chat-tanglish.jpeg)
 
 **Chat with Tamil:**  
 Engage with the AI in Tamil for a native language experience.  
-![Chat Tamil](/screenshots/chat-tamil.png)
+![Chat Tamil](/screenshots/chat-tamil.jpeg)
 
 **Game Page:**  
 Play interactive games designed for relaxation and focus.  
