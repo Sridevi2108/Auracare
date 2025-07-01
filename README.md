@@ -204,6 +204,21 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 [MIT](LICENSE) (or specify your license)
 
 ---
+## 👥 Contributors
+
+- [Sridevi Raju](https://github.com/Sridevi2108)
+- [Sakthisewari](https://github.com/S-Sakthiswari)
+
+<!-- Optionally, you can display avatars as well: -->
+
+<p>
+  <a href="https://github.com/Sridevi2108">
+    <img src="https://github.com/Sridevi2108.png" width="60" alt="Sridevi Raju"/>
+  </a>
+  <a href="https://github.com/S-Sakthiswari">
+    <img src="https://github.com/S-Sakthiswari.png" width="60" alt="Sakthisewari"/>
+  </a>
+</p>
 
 ## 🙏 Acknowledgments
 
