@@ -30,7 +30,7 @@ Auracare/
 - Multi-language chatbot (English, Tamil, Tanglish) using Rasa + LLaMA
 - Mood tracking and sentiment analysis powered by TextBlob
 - Gamified wellness tools: relaxation quiz, breathing exercises, motivational quotes
-- Journaling space with sentiment trend analytics
+- Mood tracking with sentiment trend analytics
 - Profile dashboard and chat history
 
 ### 🔧 Backend (Flask)
@@ -40,9 +40,8 @@ Auracare/
 - RESTful APIs for seamless frontend-backend communication
 
 ### 🔒 Admin Module (Optional)
-- View anonymous user sentiment logs
-- Blog management (wellness resources)
-- Incident reports (for project deployments like Serenova)
+- User management
+- Content management (wellness resources)
 
 ---
 
@@ -56,7 +55,6 @@ Auracare/
 | Chatbot   | Rasa, LLaMA (local inference)       |
 | AI/NLP    | TextBlob (for sentiment analysis)   |
 | Auth      | Custom with bcrypt                  |
-| Deployment| (Planned: Vercel / Render / Docker) |
 
 ---
 
