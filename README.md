@@ -109,87 +109,87 @@ This helps visualize emotional trends in the Analytics tab.
 ---
 ## 🖼️ Screenshots
 
-**Landing Page:**  
+## **Landing Page:**  
 The welcoming homepage for AuraCare where users start their journey.  
 ![Landing Page](/screenshots/landing-page.png)
 
-**Signup Page:**  
+## **Signup Page:**  
 New users can create an account with basic information.  
 ![Signup](/screenshots/signup.png)
 
-**OTP Verification:**  
+## **OTP Verification:**  
 Secure the signup process with OTP verification.  
 ![OTP Verification](/screenshots/otp-verification.png)
 
-**Password Verification:**  
+## **Password Verification:**  
 Users set and verify their password for account security.  
 ![Password Verification](/screenshots/password-verification.png)
 
-**Login Page:**  
+## **Login Page:**  
 Returning users can log in to access their dashboard.  
 ![Login](/screenshots/login.png)
 
-**Forgot Password:**  
+## **Forgot Password:**  
 Users can initiate password recovery if they forget their credentials.  
 ![Forgot Password](/screenshots/forgot-password.png)
 
-**Forgot Password Verification:**  
+## **Forgot Password Verification:**  
 Verification step for resetting passwords securely.  
 ![Forgot Password Verification](/screenshots/forgot-password-verification.png)
 
-**Dashboard:**  
+## **Dashboard:**  
 Users get an overview of their activities and mental wellness stats.  
 ![Dashboard](/screenshots/dashboard.png)
 
-**Chat with English:**  
+## **Chat with English:**  
 Interact with the AI chatbot in English for mental health support.  
 ![Chat English](/screenshots/chat-english.jpeg)
 
-**Chat with Tanglish:**  
+## **Chat with Tanglish:**  
 Multilingual chatbot conversation in Tanglish.  
 ![Chat Tanglish](/screenshots/chat-tanglish.jpeg)
 
-**Chat with Tamil:**  
+## **Chat with Tamil:**  
 Engage with the AI in Tamil for a native language experience.  
 ![Chat Tamil](/screenshots/chat-tamil.jpeg)
 
-**Game Page:**  
+## **Game Page:**  
 Play interactive games designed for relaxation and focus.  
 ![Game Page](/screenshots/game-page.png)
 
-**Quiz Page:**  
+## **Quiz Page:**  
 Users can participate in fun quizzes to boost their mood.  
 ![Quiz Page](/screenshots/quiz-page.png)
 
-**Music Page:**  
+## **Music Page:**  
 Listen to soothing melodies to help relax and unwind.  
-![Music Page](/screenshots/music-page.png)
+![Music Page](/screenshots/music-page.jpg)
 
-**Analytics Page:**  
+## **Analytics Page:**  
 Visualize emotional trends and sentiment analysis over time.  
 ![Analytics Page](/screenshots/analytics-page.png)
 
-**Profile:**  
+## **Profile:**  
 Manage personal information and preferences in the user profile.  
 ![Profile](/screenshots/profile.png)
 
-**Admin Login Page:**  
+## **Admin Login Page:**  
 Admins can securely log in to the control panel.  
 ![Admin Login](/screenshots/admin-login.png)
 
-**Admin Dashboard:**  
+## **Admin Dashboard:**  
 Overview for administrators to manage platform activities.  
 ![Admin Dashboard](/screenshots/admin-dashboard.png)
 
-**User Management:**  
+## **User Management:**  
 Admins can view and manage user accounts and activities.  
 ![User Management](/screenshots/user-management.png)
 
-**Content Management:**  
+## **Content Management:**  
 Admin can manage the content like add new games, funny quizzes, or melody music.  
 ![Content Management](/screenshots/content-management.png)
 
-**Profile (Admin/User):**  
+## **Profile (Admin/User):**  
 Admins or users can update their profile details.  
 ![Profile](/screenshots/profile.png)
 
