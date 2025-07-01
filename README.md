@@ -127,7 +127,7 @@ Users set and verify their password for account security.
 
 ## **Login Page:**  
 Returning users can log in to access their dashboard.  
-![Login](/screenshots/login.png)
+![Login](/screenshots/login.jpg)
 
 ## **Forgot Password:**  
 Users can initiate password recovery if they forget their credentials.  
